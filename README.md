@@ -31,3 +31,7 @@
 - 画像の登録と表示、コメント機能、いいね機能
 - GoogleMapなど、他サイト機能の連携
 - 時間で色を変える、マウスで変化など（JSの機能応用）
+
+## 実行時のメモ
+- `npx tailwindcss -i ./src/styles.css -o ./views/styles.css --watch`
+- `npm run dev`

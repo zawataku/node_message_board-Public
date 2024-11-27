@@ -21,6 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/views', express.static('views')); //viewsを含むHTMLリクエストに対しては、viewsフォルダを参照し、静的ファイルを返すように設定
 
 var session_opt = {
   secret: "keyboard cat",
