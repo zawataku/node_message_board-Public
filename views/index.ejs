@@ -12,15 +12,21 @@ __      _____ _    ___ ___  __  __ ___
     <%= title %>
   </title>
   <link rel='stylesheet' href='/views/styles.css' />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500..700&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <div class="pt-6 space-y-4 bg-slate-100 rounded-xl p-8 dark:bg-slate-800 m-6">
-    <p class="text-lg">“Tailwind CSS is the only framework that I've seen scale on large teams. It’s easy to customize,
-      adapts to any design, and the build size is tiny.”</p>
-  </div>
-
-  </p>
+  <main
+    class="flex flex-col items-center bg-[url('/img/bg.jpg')] h-screen bg-center bg-cover overflow-hidden px-2 py-8 text-primary-800 md:p-8">
+    <div
+      class="relative flex w-full max-w-2xl my-auto flex-col items-center justify-center rounded-xl backdrop-blur-xl bg-white/70 p-6 shadow-lg">
+      <h1 class="text-3xl font-bold">KIT Message Board</h1>
+    </div>
+  </main>
 </body>
 
 </html>
