@@ -132,4 +132,8 @@ dist
 # DataBase
 db/
 
+# 以下、自分で追記したファイル
 .DS_Store
+/prisma/mydata.db
+
+# End of .gitignore
